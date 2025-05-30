@@ -1,0 +1,81 @@
+/* Default styles for desktop */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+.menu {
+    display: flex;
+}
+
+/* Main container */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+/* Tablet viewport */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        padding: 10px;
+        max-width: 100%;
+    }
+}
+
+/* Mobile viewport */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .menu{
+        flex-direction: column;
+    }
+    
+         .menu a {
+                padding: 15px;
+            }
+
+}
