@@ -16,7 +16,7 @@ Convert an existing desktop-only web page into a mobile-friendly layout using me
 
 ## Implementation Details
 - Project Setup: Organize files (index.html, styles.css) and use VS Code for editing.
-- HTML Structure: Use semantic tags - <nav>, <div>, <meta viewport> for accessibility.
+- HTML Structure: Use semantic tags for accessibility.
 - CSS & Media Queries: Default styles for desktop, adaptive layout for mobile (≤480px) and tablet (≤768px).
 
 ## Installation & Testing
